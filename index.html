@@ -12,14 +12,15 @@
     
     <header id="header-container">
         <h1 id="tittle-text">SENAI COLLEGE</h1>
-        <a href="./login.html">
-            <button class="btn btn-ligt cor btn btn-outline-light">Entrar</button>
-        </a>
     </header>
 
     <main id="container-registro">
-        <h2 id="texto-registro">Registro do Professor</h2>
-        <form action="" class="form-control" method="post">
+        <form action="" id="formRegistro" class="form-control">
+
+            <div id="text">
+                <h2 id="texto-registro">Registro do Professor</h2>
+                <img id="image" src="icon/registrado.png" alt="">
+                </div>
             <div>
                 <label for="inputName">
                   Nome:  
@@ -45,10 +46,33 @@
                 <input type="password" class="form-control" id="inputValidar" required>
             </div>
             <div class="d-grid gap-2 col-6 mx-auto">
-                <button type="button" id="button" onclick="login()" class="btn btn-light btn btn-outline-dark">Registrar</button>
+                <button type="button" id="button" onclick="registro()" class="btn btn-light btn btn-outline-dark">Registrar</button>
               </div>  
         </form>
         
+        <form action="" id="formLogin" class="form-control">
+            <div id="text">
+                <h2 id="texto-registro">Login do Professor</h2>
+                <img id="image" src="icon/registrado.png" alt="">
+                </div>
+            <div>
+                <label for="inputEmail">
+                    E-mail:
+                </label>
+                <input type="email" class="form-control" id="inputEmail" required>
+            </div>
+            <div>
+                <label for="inputSenha">
+                    Senha:
+                </label>
+                <input type="password" class="form-control" id="inputSenha" required>  
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button type="button" id="button" onclick="logar()" class="btn btn-light btn btn-outline-dark">Entrar</button>
+              </div>  
+        </form>
+
+
     </main>
 
     <footer id="footer-container">
