@@ -1,4 +1,4 @@
-function registro(){
+function registro(){ //Função para registrar o professor.
 
     let inputSenha = document.getElementById('inputSenha').value
     let inputValidar = document.getElementById('inputValidar').value
@@ -13,10 +13,12 @@ function registro(){
 
 }
 
-//  function logar(){
+//  function logar(){  
 //     http://127.0.0.1:5501/login.html
 // }
 
-// function cadastroTurma(){
+// function cadastrarTurmas(){}
 
-// }
+// function cadastrarAtividades(){}
+
+//function mudarSenha(){}

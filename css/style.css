@@ -13,7 +13,7 @@ body{
 #header-container{
     display: flex;
     flex-direction: center;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     padding: 10px;
     background-color: #24294C;
@@ -24,11 +24,11 @@ body{
 }
 
 #form{
-    margin-right: 35% !important;
+    margin-right: 15% !important;
 }
 
 form > div {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 #container-registro{
@@ -72,7 +72,7 @@ form > div {
 #login-container{
     display: flex;
     flex-direction: center;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     padding: 10px;
     background-color: #24294C;
