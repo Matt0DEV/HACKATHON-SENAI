@@ -13,7 +13,7 @@ body{
 #header-container{
     display: flex;
     flex-direction: center;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     padding: 10px;
     background-color: #24294C;

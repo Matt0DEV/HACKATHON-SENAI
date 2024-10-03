@@ -13,20 +13,73 @@
     <header id="gerenciador-container">
         <h1 id="tittle-text">SENAI COLLEGE</h1>
         <div id="header-links">
-            <a href="">Cadastrar Turmas</a> | <a href="">Cadastrar Atividades</a> | <a href="">Mudar Senha |</a>
+            <a href="./atividades.html">Atividades</a> 
         </div>
     </header>
 
     <main id="container-gerenciador">
         <table class="table">
-            <h2 id="text-turmas">Turmas Cadastradas</h2>
-            <h2 id="text-atividades">Atividades</h2>
+            <div id="criarTurmas">
+                <h2 id="professorNome">Seja Bem-Vindo,</h2>
+                <button id="buttonCriar" class="btn ">Criar Turmas</button>
+            </div>
+            
             <tr>
                 <th>ID</th>
-                <th>SEMESTRE</th>
+                <th>NOME</th>
+                <th>CÓDIGO</th>
+                <th>PERÍODO</th>
+                <th>ID_PROFESSOR</th>
+                <th></th>
+                <th></th>
             </tr>
         </table>
             
+        <div class="modalCadastro">
+            <form action="" id="formCriar" class="form-control">
+                <div id="textCriar">
+                    <h2 id="criar-container">Criar Turma</h2>
+                </div>
+
+                <div>
+                    <label for="inputID">
+                        ID:
+                    </label>
+                    <input type="text" class="form-control" id="inputID" disabled>
+                </div>
+
+                <div>
+                    <label for="inputNome">
+                        Nome:
+                    </label>
+                    <input type="text" class="form-control" id="inputNome" required>
+                </div>
+                
+                <div>
+                    <label for="inputCodigo">
+                        Código:
+                    </label>
+                    <input type="text" class="form-control" id="inputCodigo" required>
+                </div>
+                
+                <div>
+                    <label for="inputPeriodo">
+                        Período:
+                    </label>
+                    <input type="text" class="form-control" id="inputPeriodo" required>
+                </div>
+
+                <div>
+                    <label for="inputProff">
+                        ID_PROFESSOR:
+                    </label>
+                    <input type="text" class="form-control" id="inputProff" required> 
+                </div>
+                <div id="bottonDiv">
+                    <button id="criarTurma" class="btn">Criar</button>
+                </div>
+            </form>
+        </div>
         
         
 
